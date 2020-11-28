@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Particle_Opaque PBR
+  m_Shader: {fileID: 4800000, guid: fcfd1e26231592b46b4dde1fcf65d24b, type: 3}
+  m_ShaderKeywords: _ALBEDOMAP _COLORMODE_RANDOM
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9f963a790a507ce4c98686cb5423994d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PositionBuffer:
+        m_Texture: {fileID: 2800000, guid: 9f963a790a507ce4c98686cb5423994d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RotationBuffer:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMode: 2
+    - _Metallic: 0.28
+    - _NormalScale: 1
+    - _OcclusionStr: 1
+    - _RandomSeed: 0
+    - _ScaleMax: 1
+    - _ScaleMin: 1
+    - _Smoothness: 0.1
+    m_Colors:
+    - _Color: {r: 0.16639279, g: 0.6415094, b: 0.09380562, a: 0}
+    - _Color2: {r: 0.13389997, g: 0.4811321, b: 0.1982845, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
